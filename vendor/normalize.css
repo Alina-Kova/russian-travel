@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  background: #2A2C2F;
+}
+
+body {
+  font-family: 'Inter', 'Arial', sans-serif;
+}
+
+main {
+  display: block;
+}

@@ -1,0 +1,10 @@
+.lead__upper-image {
+    border: red 1px solid;
+    background: no-repeat center url('../../../images/lead-put.png');
+    margin: 90px auto 0;
+    z-index: 1;
+    max-width: 937px;
+    height: 263px;
+}
+/* создан допольнительный блок для наложение 
+картинки поверх фонового изображения */
