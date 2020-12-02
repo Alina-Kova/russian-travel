@@ -1,7 +1,6 @@
 .lead {
   border: 1px red solid;
-  max-width: 984px;
-  margin: 0 auto;
+  width: 100%;
   color: #ffffff;
   display: flex;
   flex-direction: column;

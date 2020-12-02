@@ -12,15 +12,18 @@
   font-weight: bold;
 }
 
-/* 1280 */
+/* 320 */
 
 .page {
   border: 1px red solid;
-  max-width: 1280px;
+  width: 100%;
   background: #2A2C2F;
-  margin: 0 auto;
-  padding-top: 28px;
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  font-family: Inter;
   font-style: normal;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  color: white;
 }

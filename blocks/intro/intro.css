@@ -1,7 +1,6 @@
 .intro {
     border: 1px red solid;
-    margin: 92px 0;
-    max-width: 690px;
-    font-style: normal;
+    margin: 64px auto;
+    width: 90%;
     color: #ffffff;
 }

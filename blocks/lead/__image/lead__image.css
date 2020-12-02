@@ -1,9 +1,11 @@
 .lead__image {
   border: 1px red solid;
-  background: no-repeat center url('../../../images/lead-polka.jpg');
+  background: center url('../../../images/lead-polka.jpg');
+  background-size: cover;
   width: 100%;
-  height: 615px;
+  height: 62.5vw;
   object-fit: fill;
   position: relative;
   margin-bottom: 8px;
+  box-sizing: border-box;
 }

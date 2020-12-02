@@ -1,9 +1,9 @@
 .lead__subtitle {
   border: 1px red solid;
-  font-size: 30px;
+  font-size: 16px;
   line-height: 1.2;
   font-weight: normal;
-  width: 640px;
-  height: 72px;
-  margin: 32px auto 64px;
+  width: 288px;
+  height: 40px;
+  margin: 16px auto 40px;
 }

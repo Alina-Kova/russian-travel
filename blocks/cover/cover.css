@@ -1,0 +1,45 @@
+.cover {
+    border: 1px red solid;
+    width: 100%;
+    height: 62.5vw;
+    background-image: url('../../../images/cover-railways.jpg');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    margin-bottom: 64px;
+    position: relative;
+    text-decoration: none;
+}
+
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover:hover::before {
+    background: #2A2C2F;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

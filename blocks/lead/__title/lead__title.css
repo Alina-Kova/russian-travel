@@ -1,9 +1,9 @@
 .lead__title {
   border: 1px red solid;
   font-weight: 900;
-  font-size: 96px;
+  font-size: 40px;
   line-height: 1.1;
-  width: 720px;
-  height: 200px;
+  width: 288px;
+  height: 88px;
   margin: 0 auto;
 }

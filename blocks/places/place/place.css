@@ -1,0 +1,10 @@
+.place {
+    border: 1px solid red;
+    margin-bottom: 49px;
+    display: flex;
+    flex-direction: column;
+}
+
+.place:last-child {
+    margin-bottom: 0;
+}

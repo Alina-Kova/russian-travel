@@ -1,10 +1,9 @@
 .photo-grid {
   border: 1px red solid;
-  max-width: 1184px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, 1, 1fr);
   flex-wrap: wrap;
-  gap: 16px;
-  margin: 92px auto;
+  width: 90%;
+  row-gap: 12px;
+  margin: 0 auto 64px;
 }
