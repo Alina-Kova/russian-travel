@@ -7,8 +7,6 @@
     text-align: center;
     margin: 0 auto 16px;
     position: relative;
-    text-decoration: none;
-    display: block;
 }
 
 @media screen and (min-width: 768px) {
