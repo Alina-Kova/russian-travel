@@ -1,4 +1,24 @@
-.place_website {
-    border: 1px red solid;
+.place__website {
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .place__website {
+        width: 352px;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place__website {
+        width: 456px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place__website {
+        width: 456px;
+    }
 }

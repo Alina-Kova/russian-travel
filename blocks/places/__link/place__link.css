@@ -1,4 +1,27 @@
+@keyframes opacity {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.4;
+    }
+  }
+
 .place__link {
-    border: 1px solid red;
     display: none;
+}
+
+.place__link:hover {
+    animation: opacity 0.5s ease-in forwards;
+  }
+
+@media screen and (min-width: 768px) {
+    .place__link {
+        display: block;
+        color: #ffffff;
+        text-decoration: underline;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+    }
 }

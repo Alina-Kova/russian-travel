@@ -1,6 +1,26 @@
 .footer {
-    border: 1px red solid;
-    min-width: 186px;
     margin-left: 5%;
-    width: 186px;
+    max-width: 186px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        max-width: 720px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        max-height: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        max-width: 1184px;
+    }
 }

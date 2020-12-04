@@ -1,6 +1,28 @@
 .intro {
-    border: 1px red solid;
     margin: 64px auto;
-    width: 90%;
+    max-width: 288px;
     color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+    .intro {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro {
+        max-width: 690px;
+        margin-top: 88px;
+        margin-bottom: 88px;
+        margin-left: 113px;
+    } 
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        margin-top: 92px;
+        margin-bottom: 92px;
+        margin-left: 148px;
+    }
 }

@@ -1,9 +1,29 @@
+@keyframes opacity {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.4;
+    }
+  }
+
 .footer__link {
-    border: 1px red solid;
     font-size: 24px;
     line-height: 24px;
     color: #ffffff;
     text-decoration: none;
     display: flex;
     flex-direction: column;
+    margin-right: 18px;
 }
+
+.footer__link:hover {
+    animation: opacity 0.5s ease-in forwards;
+  }
+
+  @media screen and (min-width: 768px) {
+    .footer__link {
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }

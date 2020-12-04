@@ -1,4 +1,23 @@
+@keyframes opacity {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.4;
+    }
+  }
+
 .cover__link {
     text-decoration: none;
     color: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
 }
+
+.cover__link:hover {
+    animation: opacity 0.5s ease-in forwards;
+  }

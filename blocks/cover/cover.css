@@ -1,15 +1,17 @@
 .cover {
-    border: 1px red solid;
     width: 100%;
     height: 62.5vw;
     background-image: url('../../../images/cover-railways.jpg');
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    padding-top: 33px;
-    padding-bottom: 33px;
+    /* padding-top: 33px;
+    padding-bottom: 33px; */
     margin-bottom: 64px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cover::before {
@@ -29,15 +31,21 @@
 }
 
 @media screen and (min-width: 768px) {
-
+    .cover {
+        margin-bottom: 88px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-
+    .cover {
+        margin-bottom: 92px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
     .cover {
+        max-width: 1184px;
+        max-height: 640px;
         margin-left: auto;
         margin-right: auto;
     }
