@@ -7,16 +7,16 @@
     }
   }
 
-.place__link {
+.places__link {
     display: none;
 }
 
-.place__link:hover {
+.places__link:hover {
     animation: opacity 0.5s ease-in forwards;
   }
 
 @media screen and (min-width: 768px) {
-    .place__link {
+    .places__link {
         display: block;
         color: #ffffff;
         text-decoration: underline;

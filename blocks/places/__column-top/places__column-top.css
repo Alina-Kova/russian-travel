@@ -1,11 +1,11 @@
-.place__column-top {
+.places__column-top {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
-    .place__column-top {
+    .places__column-top {
         max-width: 100%;
         display: flex;
         flex-direction: row;

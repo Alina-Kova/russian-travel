@@ -1,13 +1,13 @@
-.place {
+.places__item {
     margin-bottom: 49px;
 }
 
-.place:last-child {
+.places__item:last-child {
     margin-bottom: 0;
 }
 
 @media screen and (min-width: 768px)  {
-    .place {
+    .places__item{
         display: flex;
         flex-direction: column;
         margin-bottom: 73px;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (min-width: 1024px)  {
-    .place {
+    .places__item {
         max-width: 928px;
         grid-template-columns: 440px 456px;
         column-gap: 32px;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (min-width: 1280px)  {
-    .place {
+    .places__item {
         max-width: 984px;
         grid-template-columns: 460px 484px;
         column-gap: 40px;
