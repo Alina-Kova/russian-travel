@@ -7,22 +7,21 @@
 @media screen and (min-width: 768px) {
     .intro {
         max-width: 720px;
+        margin-top: 88px;
+        margin-bottom: 88px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .intro {
-        max-width: 690px;
-        margin-top: 88px;
-        margin-bottom: 88px;
-        margin-left: 48px;
+        max-width: 928px;
+        margin-top: 92px;
+        margin-bottom: 92px;
     } 
 }
 
 @media screen and (min-width: 1280px) {
     .intro {
-        margin-top: 92px;
-        margin-bottom: 92px;
-        margin-left: 148px;
+        max-width: 984px;
     }
 }

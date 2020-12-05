@@ -10,6 +10,7 @@
     .place {
         display: flex;
         flex-direction: column;
+        margin-bottom: 73px;
     }  
 }
 
@@ -18,6 +19,7 @@
         max-width: 928px;
         grid-template-columns: 440px 456px;
         column-gap: 32px;
+        margin-bottom: 80px;
     }  
 }
 
