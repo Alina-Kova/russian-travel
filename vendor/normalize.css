@@ -12,7 +12,6 @@
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   -webkit-font-smoothing: antialiased;
-  width: 100%;
 }
 
 /* Sections
@@ -24,7 +23,6 @@
 
 body {
   margin: 0;
-  font-family: 'Inter', 'Arial', sans-serif;
 }
 
 /**
