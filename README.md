@@ -47,3 +47,5 @@
     opacity: 0.8;
 }
 ``` 
+
+С проектом можно ознакомиться на GitHub Pages по ссылке:  # https://alina-kova.github.io/russian-travel/index.html
