@@ -1,18 +1,9 @@
-@keyframes opacity {
-    from {
-      opacity: 1;
-    }
-    to {
-      opacity: 0.4;
-    }
-  }
-
 .places__link {
     display: none;
 }
 
 .places__link:hover {
-    animation: opacity 0.5s ease-in forwards;
+    opacity: 0.8;
   }
 
 @media screen and (min-width: 768px) {
@@ -23,5 +14,6 @@
         font-weight: normal;
         font-size: 18px;
         line-height: 22px;
+        transition: opacity .5s ease-in forwards;
     }
 }

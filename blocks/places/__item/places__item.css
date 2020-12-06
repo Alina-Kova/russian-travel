@@ -1,5 +1,6 @@
 .places__item {
     margin-bottom: 49px;
+    list-style: none;
 }
 
 .places__item:last-child {

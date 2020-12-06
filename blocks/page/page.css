@@ -1,14 +1,13 @@
 /* Mobile first */
 
 .page {
-  max-width: 100%;
+  min-width: 320px;
   background: #2A2C2F;
   margin: 0 auto;
   padding-top: 16px;
   padding-bottom: 24px;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
-  -webkit-box-sizing: border-box;
   color: white;
   -webkit-font-smoothing: antialiased;
 }

@@ -1,27 +1,14 @@
-@keyframes opacity {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0.4;
-  }
-}
-
 .header__lang-link {
   font-size: 18px;
   line-height: 20px;
   text-decoration: none;
   color: #ffffff;
   margin: 0;
-}
-
-.header__lang-link:first-child {
-    text-decoration-line: underline;
-    margin-right: 18px;
+  transition: opacity .5s ease-in forwards;
 }
 
 .header__lang-link:hover {
-  animation: opacity 0.5s ease-in forwards;
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {
