@@ -4,8 +4,6 @@
 
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/opacity/opacity.css);
-
 @import url(../blocks/header/header.css);
 
 @import url(../blocks/header/__logo/header__logo.css);
@@ -14,7 +12,7 @@
 
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
-@import url(../blocks/header/__lang-link/__lang-link_active/header__lang-link_active.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../blocks/lead/lead.css);
 

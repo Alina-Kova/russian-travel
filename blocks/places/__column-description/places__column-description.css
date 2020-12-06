@@ -6,8 +6,6 @@
 
 @media screen and (min-width: 768px) {
     .places__column-description {
-        width: 100%;
-        display: flex;
         flex-direction: row;
     }
 }
